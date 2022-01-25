@@ -7,6 +7,8 @@
 ## Tech Stack
 > React
 
+> Redux
+
 > Express
 
 > MongoDB
