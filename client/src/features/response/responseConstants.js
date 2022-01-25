@@ -1,0 +1,4 @@
+export const GET_RESPONSE = "GET_RESPONSE";
+export const ACCEPT_RESPONSE = "ACCEPT_RESPONSE";
+export const DENY_RESPONSE = "DENY_RESPONSE";
+

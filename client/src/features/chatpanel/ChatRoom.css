@@ -1,0 +1,25 @@
+#chatRoom{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatFooter{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+#chatBody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex: 1 1 auto;
+    height: 0px;
+}

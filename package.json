@@ -1,0 +1,46 @@
+{
+  "name": "full-stack-mern-chat-app",
+  "version": "1.0.0",
+  "description": "Chat application with MongoDB and React ",
+  "main": "index.js",
+  "engines": {
+    "node": "12.17.0",
+    "npm": "5.0.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix interface",
+    "dev": "concurrently \"npm run server \" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyawzinthant-dev/fullstak-chatapp.git"
+  },
+  "author": "kzinthant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyawzinthant-dev/fullstak-chatapp/issues"
+  },
+  "homepage": "https://github.com/kyawzinthant-dev/fullstak-chatapp#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5",
+    "mongoose-auto-increment": "^5.0.1",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "react-flip-move": "^3.0.4",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  }
+}
