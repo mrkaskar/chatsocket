@@ -1,4 +1,8 @@
 # Socket Chat App with React + Express 
+### Skill level
+**UXUI** - Low
+
+**Coding** - Medium
 
 ## Tech Stack
 > React
